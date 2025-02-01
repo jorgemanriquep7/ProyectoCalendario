@@ -17,6 +17,8 @@ body {
 
 h2 {
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 table {
@@ -48,4 +50,22 @@ td {
 
 .mes-anterior, .mes-siguiente {
     color: #bbb;
+}
+
+/* Botones de cambio de mes */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+
+
+button:hover {
+    background-color: #0056b3;
 }
